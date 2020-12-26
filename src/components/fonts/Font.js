@@ -7,7 +7,7 @@ const Font = ({ name, numberVariants, category, link }) => {
 
   return (
     <article className="col-lg-6 mb-3">
-      <div className="shadow p-3">
+      <div className="shadow p-3 card">
         <h2 className="h6 d-flex aling-items-center justify-content-between">
           <span>{name}</span>
           <small>{numberVariants} variant(s)</small>
